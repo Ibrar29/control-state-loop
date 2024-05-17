@@ -1,0 +1,81 @@
+var temp = 10
+if(temp>=40){console.log("temperature is hot")}
+
+else if(temp >30 && temp<36){ console.log("temperature is normal");
+}
+else{
+    console.log("temperature is cold");
+ }
+var personAge =55 ;
+var isCitizen = false;
+var isRegisterd = true;
+if(personAge >= 18){
+    if(isCitizen){
+        if(isRegisterd){
+            console.log("person is eligible to vote");
+        }
+        else{
+            console.log("person is not eligible due to registration");
+        }
+    }
+    console.log("you are not eligible due to not being a citizen");
+}
+else{
+    console.log("person is not eligible to vote younger than 18");
+}
+odd and even
+var num = 7;
+if(num %2==0){
+    console.log("number is even");
+}
+else{
+    console.log("number is odd");}
+// check number positive or negative or zero
+var num=0;
+if(num ==0){
+    console.log("number is zero");
+} else if(num>0){
+    console.log("number is positive");
+}
+else if{
+    console.log("number is negative");
+}
+var temp = 20;
+if(temp>=40){
+    console.log("temperature is hot");
+}else if(temp>30 && temp<39){
+    console.log("temperature is normal");
+} else{
+    console.log("temperature is cold");
+}
+var num = 1;
+if(num %2==0){
+    console.log("number is even");
+}else{
+    console.log("number is odd");
+}
+
+var num =-3
+if (num==0){
+    console.log("number is zero");
+}else if(num>0){
+    console.log("number is positive");
+}else{
+    console.log("number is negative");
+}
+
+var youngerPerson =22;
+var isCitizen = true;
+var isRegister = true;
+if(youngerPerson>=18){
+    if(isCitizen){
+        if(isRegister){
+            console.log("person is eligible to vote");
+        }else{
+            console.log("person is not eligible due to registration");
+        }
+            console.log("you are not eligible due to not being a citizen");
+        } else{
+            console.log("person is not eligible to vote younger than 18");
+        }
+    }  
